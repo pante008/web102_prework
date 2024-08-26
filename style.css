@@ -21,7 +21,12 @@ body {
 
 .stats-container {
     display: flex;
-    align-items: center; 
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;        /* Changes the cursor to a pointer when hovering */
+    box-shadow: 0 0 30px lightblue; /* Adds a light blue shadow on hover */
 }
 
 .stats-card {
